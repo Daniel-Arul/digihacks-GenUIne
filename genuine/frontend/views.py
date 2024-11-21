@@ -7,6 +7,10 @@ from .serializers import CharitySerializer
 def index(request):
     return render(request, "frontend/index.html")
 
+
+def createAccount(request):
+    return render(request, "frontend/AccountCreation.html")
+
 # Charity API ViewSet
 class CharityViewSet(viewsets.ModelViewSet):
     queryset = Charity.objects.all()
