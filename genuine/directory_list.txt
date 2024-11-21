@@ -1,0 +1,16 @@
+total 624
+drwxr-xr-x   15 sohanhossain  staff     480 Nov 20 15:50 .
+drwxr-xr-x    5 sohanhossain  staff     160 Nov 20 15:48 ..
+-rw-r--r--    1 sohanhossain  staff      61 Nov 20 14:40 .babelrc
+-rw-r--r--    1 sohanhossain  staff      27 Nov 20 14:40 .gitignore
+-rw-r--r--    1 sohanhossain  staff     108 Nov 20 14:40 README
+-rw-r--r--    1 sohanhossain  staff  131072 Nov 20 14:40 db.sqlite3
+-rw-r--r--    1 sohanhossain  staff       0 Nov 20 15:50 directory_list.txt
+drwxr-xr-x   14 sohanhossain  staff     448 Nov 20 15:08 frontend
+drwxr-xr-x    8 sohanhossain  staff     256 Nov 20 14:54 genuine
+-rw-r--r--    1 sohanhossain  staff     663 Nov 20 14:40 manage.py
+drwxr-xr-x  182 sohanhossain  staff    5824 Nov 20 15:01 node_modules
+-rw-r--r--    1 sohanhossain  staff  156953 Nov 20 15:48 package-lock.json
+-rw-r--r--    1 sohanhossain  staff     595 Nov 20 14:40 package.json
+-rw-r--r--    1 sohanhossain  staff     480 Nov 20 15:08 webpack-stats.json
+-rw-r--r--    1 sohanhossain  staff     736 Nov 20 14:40 webpack.config.js

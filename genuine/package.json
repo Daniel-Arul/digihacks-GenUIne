@@ -4,8 +4,14 @@
     "build": "webpack --config webpack.config.js --mode production"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.8",
+    "axios": "^1.7.7",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "shadcn": "^2.1.6"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
