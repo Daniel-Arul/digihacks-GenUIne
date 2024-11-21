@@ -18,15 +18,15 @@ const CharityForm = () => {
     charity_logo_english: null,
 
     // Media Library
-    images: [],
-    videos: [],
+    images: [], // Expecting array of pk values
+    videos: [], // Expecting array of pk values
 
     // Page Visuals
     main_charity_image_english: null,
     main_charity_image_french: null,
 
     // Quotes
-    quotes: [],
+    quotes: [], // Expecting array of pk values
 
     // Donation Presets
     one_time_donation_amount: "",
@@ -53,14 +53,18 @@ const CharityForm = () => {
     short_intro_text_english: "",
     short_intro_text_french: "",
     scope_of_mission: "Local",
-    additional_categories: [],
+    additional_categories: [], // Expecting array of pk values
   });
 
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    if (name === "images" || name === "videos" || name === "quotes" || name === "additional_categories") {
+      setFormData({ ...formData, [name]: value.split(",").map(Number) }); // Convert comma-separated string to array of numbers
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
   };
 
   const handleFileChange = (e) => {
@@ -209,12 +213,22 @@ const CharityForm = () => {
       {/* Media Library */}
       <h2>Media Library</h2>
       <div>
-        <label>Images:</label>
-        <input type="file" name="images" multiple onChange={handleFileChange} />
+        <label>Images (comma-separated IDs):</label>
+        <input
+          type="text"
+          name="images"
+          value={formData.images.join(",")}
+          onChange={handleChange}
+        />
       </div>
       <div>
-        <label>Videos:</label>
-        <input type="file" name="videos" multiple onChange={handleFileChange} />
+        <label>Videos (comma-separated IDs):</label>
+        <input
+          type="text"
+          name="videos"
+          value={formData.videos.join(",")}
+          onChange={handleChange}
+        />
       </div>
 
       {/* Page Visuals */}
@@ -231,8 +245,13 @@ const CharityForm = () => {
       {/* Quotes */}
       <h2>Quotes</h2>
       <div>
-        <label>Quotes:</label>
-        <input type="text" name="quotes" value={formData.quotes} onChange={handleChange} />
+        <label>Quotes (comma-separated IDs):</label>
+        <input
+          type="text"
+          name="quotes"
+          value={formData.quotes.join(",")}
+          onChange={handleChange}
+        />
       </div>
 
       {/* Donation Presets */}
@@ -409,11 +428,11 @@ const CharityForm = () => {
         </select>
       </div>
       <div>
-        <label>Additional Categories:</label>
+        <label>Additional Categories (comma-separated IDs):</label>
         <input
           type="text"
           name="additional_categories"
-          value={formData.additional_categories}
+          value={formData.additional_categories.join(",")}
           onChange={handleChange}
         />
       </div>
