@@ -96,3 +96,4 @@ const CharityForm = () => {
   );
 };
 
+export default CharityForm;

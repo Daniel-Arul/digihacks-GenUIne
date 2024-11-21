@@ -1,15 +1,15 @@
 {
   "status": "done",
   "assets": {
-    "frontend-1ae5f954d44df0b649ab.js": {
-      "name": "frontend-1ae5f954d44df0b649ab.js",
-      "path": "/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/static/frontend/frontend-1ae5f954d44df0b649ab.js",
-      "publicPath": "static/frontend/frontend-1ae5f954d44df0b649ab.js"
+    "frontend-ce3b8988dc0c4cf0106d.js": {
+      "name": "frontend-ce3b8988dc0c4cf0106d.js",
+      "path": "/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/static/frontend/frontend-ce3b8988dc0c4cf0106d.js",
+      "publicPath": "static/frontend/frontend-ce3b8988dc0c4cf0106d.js"
     }
   },
   "chunks": {
     "frontend": [
-      "frontend-1ae5f954d44df0b649ab.js"
+      "frontend-ce3b8988dc0c4cf0106d.js"
     ]
   },
   "publicPath": "static/frontend/"
