@@ -1,26 +1,33 @@
 {
   "status": "done",
   "assets": {
-    "frontend-2823af8bfeef08f70cb6.js": {
-      "name": "frontend-2823af8bfeef08f70cb6.js",
-      "path": "/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/static/frontend/frontend-2823af8bfeef08f70cb6.js",
-      "publicPath": "static/frontend/frontend-2823af8bfeef08f70cb6.js"
+    "frontend-152a295afac3236040df.js": {
+      "name": "frontend-152a295afac3236040df.js",
+      "path": "/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/static/frontend/frontend-152a295afac3236040df.js",
+      "publicPath": "static/frontend/frontend-152a295afac3236040df.js"
     },
-    "frontend-a5082daf21fa43a0e758.js": {
-      "name": "frontend-a5082daf21fa43a0e758.js",
-      "path": "/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/static/frontend/frontend-a5082daf21fa43a0e758.js",
-      "publicPath": "static/frontend/frontend-a5082daf21fa43a0e758.js"
+    "frontend-164930d24c14f6ca1436.js": {
+      "name": "frontend-164930d24c14f6ca1436.js",
+      "path": "/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/static/frontend/frontend-164930d24c14f6ca1436.js",
+      "publicPath": "static/frontend/frontend-164930d24c14f6ca1436.js"
     },
-    "frontend-f23479670365e6047791.js": {
-      "name": "frontend-f23479670365e6047791.js",
-      "path": "/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/static/frontend/frontend-f23479670365e6047791.js",
-      "publicPath": "static/frontend/frontend-f23479670365e6047791.js"
+    "frontend-84b78f7d19a2d6f3862f.js": {
+      "name": "frontend-84b78f7d19a2d6f3862f.js",
+      "path": "/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/static/frontend/frontend-84b78f7d19a2d6f3862f.js",
+      "publicPath": "static/frontend/frontend-84b78f7d19a2d6f3862f.js"
+    },
+    "frontend-c9e00664053659c720f9.js": {
+      "name": "frontend-c9e00664053659c720f9.js",
+      "path": "/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/static/frontend/frontend-c9e00664053659c720f9.js",
+      "publicPath": "static/frontend/frontend-c9e00664053659c720f9.js"
     }
   },
   "chunks": {
     "frontend": [
-      "frontend-a5082daf21fa43a0e758.js"
+      "frontend-c9e00664053659c720f9.js"
     ]
   },
-  "publicPath": "static/frontend/"
+  "publicPath": "static/frontend/",
+  "error": "ModuleBuildError",
+  "message": "Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/frontend/src/components/CharityForm.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (104:0)\n\n  102 |     {message && <Typography sx={{ mt: 2 }}>{message}</Typography>}\n  103 |   </Box>\n> 104 | </Box>\n      | ^\n    at constructor (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:359:19)\n    at JSXParserMixin.raise (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:3266:19)\n    at JSXParserMixin.jsxParseElementAt (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:6796:18)\n    at JSXParserMixin.jsxParseElement (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:6803:17)\n    at JSXParserMixin.parseExprAtom (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:6816:19)\n    at JSXParserMixin.parseExprSubscripts (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10615:23)\n    at JSXParserMixin.parseUpdate (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10600:21)\n    at JSXParserMixin.parseMaybeUnary (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10580:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10434:61)\n    at JSXParserMixin.parseExprOps (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10439:23)\n    at JSXParserMixin.parseMaybeConditional (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10416:23)\n    at JSXParserMixin.parseMaybeAssign (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10379:21)\n    at JSXParserMixin.parseExpressionBase (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10333:23)\n    at /Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10329:39\n    at JSXParserMixin.allowInAnd (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:11946:16)\n    at JSXParserMixin.parseExpression (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:10329:17)\n    at JSXParserMixin.parseStatementContent (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:12390:23)\n    at JSXParserMixin.parseStatementLike (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:12257:17)\n    at JSXParserMixin.parseModuleItem (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:12234:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:12810:36)\n    at JSXParserMixin.parseBlockBody (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:12803:10)\n    at JSXParserMixin.parseProgram (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:12131:10)\n    at JSXParserMixin.parseTopLevel (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:12121:25)\n    at JSXParserMixin.parse (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:13929:10)\n    at parse (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/parser/lib/index.js:13963:38)\n    at parser (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/core/lib/parser/index.js:41:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)\n    at normalizeFile.next (<anonymous>)\n    at run (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/core/lib/transformation/index.js:22:50)\n    at run.next (<anonymous>)\n    at transform (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/@babel/core/lib/transform.js:22:33)\n    at transform.next (<anonymous>)\n    at step (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/gensync/index.js:261:32)\n    at /Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/gensync/index.js:273:13\n    at async.call.result.err.err (/Users/sohanhossain/Documents/Projects/DigiHacks/digihacks-GenUIne/genuine/node_modules/gensync/index.js:223:11)"
 }
